@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: grid;
+    grid-template-areas:
+        "header instructions"
+        "main instructions"
+        "footer instructions";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    height: 100vh;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.header {
+    grid-area: header;
+}
+
+.instructions {
+    grid-area: instructions;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}

@@ -1,0 +1,9 @@
+.instructions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.instructions p {
+    font-size: 30px;
+}

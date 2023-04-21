@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.button {
+    margin: 40px;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
